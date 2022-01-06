@@ -1,0 +1,86 @@
+body {
+    background: black;
+    font-family: 'Roboto', sans-serif;
+}
+
+.instacontainer {
+    background: white;
+    margin: auto;
+    width: 500px;
+    height: 700px;
+    padding: 0;
+    
+}
+
+.heading {
+    display: flex; 
+    justify-content: space-between; 
+}
+
+.leftheading {
+    display:flex;
+    flex:wrap;
+}
+
+.htmlsymbol {
+    font-size: 35px;
+    padding-right: 10px;
+}
+
+.rightheading{
+    font-size: 35px;
+}
+
+
+.htmlsymbol {
+    object-fit: cover;
+}
+
+.dots {
+    width:10%; 
+    text-align: right;
+}
+
+.heading{
+    margin: 0px 10px;
+    padding:10px 0px;
+}
+
+h3 {
+    margin: 0px;
+}
+
+img {
+    height: 100%;
+    width: 100%;    
+    object-fit: cover;
+}
+
+.footer {
+    margin: 0px 10px;
+    padding: 0;
+}
+
+.footerleft div:nth-child(1) {
+    padding: 0 10px 0 0;
+}
+
+.footerleft div:nth-child(2) {
+    padding: 0 10px 0 0;
+}
+
+
+.footer1 {
+    display: flex;
+    padding: 10px 0px;
+    justify-content: space-between;
+    font-size: 35px;
+}
+.footerleft {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footerright {
+    padding-right: 15px;
+}
